@@ -1,0 +1,10 @@
+---
+
+name: app2
+state: present
+image: rhel-guest
+key_name: ansible_ssh
+flavor: m2.small
+security_group: apps
+meta:
+  - { group: apps, deployment_name: QA}

@@ -1,0 +1,5 @@
+[bastion_tower]
+bastion.{{ lookup('env', '$TOWER_GUID') }}.example.opentlc.com  ansible_connection=local
+
+[workstation]
+workstation-{{ lookup('env', '$OSP_GUID') }}.rhpds.opentlc.com
