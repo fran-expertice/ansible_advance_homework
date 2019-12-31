@@ -13,10 +13,10 @@ Role Variables
 
 Nothing.
 
-Dependencies
+Pre-requisite
 ------------
 
-Nothing.
+Install repo through the role base-config 
 
 Example Playbook
 ----------------
