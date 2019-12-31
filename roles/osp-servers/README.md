@@ -21,10 +21,10 @@ Nothing.
 Example Playbook
 ----------------
 
-   - name: create frontend  instance
-     include_role:
-      name: osp-servers
-      vars_from: frontend.yaml
+- name: create frontend  instance
+  include_role:
+    name: osp-servers
+    vars_from: frontend.yaml
 
 License
 -------
