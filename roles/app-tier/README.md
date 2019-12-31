@@ -27,8 +27,8 @@ Example Playbook
   become: yes
   gather_facts: false
   roles:
+    - {name: base-config, tags: base-config}
     - {name: app-tier, tags: [apps, tomcat]}
-    - {name: lb-tier, tags: [lbs, haproxy]}
 
 License
 -------
