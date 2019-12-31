@@ -20,7 +20,8 @@ Nothing.
 
 Example Playbook
 ----------------
-
+   - name: create frontend  instance
+  
 - name: create frontend  instance
     include_role:
       name: osp-servers
