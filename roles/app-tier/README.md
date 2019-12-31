@@ -21,7 +21,6 @@ index.html.j2 : Index File.
 
 Example Playbook
 ----------------
-
    - name: setup app tier
      hosts: apps
      become: yes
