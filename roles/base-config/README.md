@@ -13,10 +13,6 @@ Role Variables
 
 Nothing.
 
-Pre-requisite
-------------
-
-Install repo through the role base-config 
 
 Example Playbook
 ----------------
