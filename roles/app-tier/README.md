@@ -30,6 +30,7 @@ Example Playbook
     - {name: base-config, tags: base-config}
     - {name: app-tier, tags: [apps, tomcat]}
 
+
 License
 -------
 
