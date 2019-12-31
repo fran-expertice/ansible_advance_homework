@@ -22,7 +22,6 @@ Example Playbook
   become: yes
   roles:
     - {name: base-config, tags: base-config}
-    - {name: lb-tier, tags: [lbs, haproxy]}
 
 License
 -------
