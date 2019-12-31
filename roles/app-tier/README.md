@@ -22,7 +22,7 @@ index.html.j2 : Index File.
 Example Playbook
 ----------------
 
-- name: setup app tier
+- name: setup app tier 
   hosts: apps
   become: yes
   gather_facts: false
