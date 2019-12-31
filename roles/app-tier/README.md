@@ -28,6 +28,7 @@ Example Playbook
   gather_facts: false
   roles:
     - {name: app-tier, tags: [apps, tomcat]}
+    - {name: lb-tier, tags: [lbs, haproxy]}
 
 License
 -------
