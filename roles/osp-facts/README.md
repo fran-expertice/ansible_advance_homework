@@ -22,9 +22,9 @@ Example Playbook
 ----------------
 
     - hosts: workstation
-    become: yes
-    roles:
-      - osp-facts
+      become: yes
+      roles:
+        - osp-facts
 
 License
 -------
