@@ -21,10 +21,10 @@ Nothing.
 Example Playbook
 ----------------
 
-- hosts: workstation
-  become: yes
-  roles:
-    - osp-facts
+  - hosts: workstation
+    become: yes
+    roles:
+      - osp-facts
 
 License
 -------
