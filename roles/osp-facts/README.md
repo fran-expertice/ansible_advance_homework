@@ -21,7 +21,7 @@ Nothing.
 Example Playbook
 ----------------
 
-  - hosts: workstation
+    - hosts: workstation
     become: yes
     roles:
       - osp-facts
