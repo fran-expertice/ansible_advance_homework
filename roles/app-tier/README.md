@@ -6,6 +6,7 @@ This role installs and configures the Tomcat.
 Requirements
 ------------
 
+Install repo through the role base-config 
 
 Role Variables
 --------------
